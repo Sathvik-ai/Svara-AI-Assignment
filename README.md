@@ -93,7 +93,9 @@ curl -X POST http://localhost:8080/predict \
 
 **Windows PowerShell:**
 ```powershell
-Invoke-RestMethod -Uri "http://localhost:8080/predict" -Method POST -ContentType "application/json" -Body '{"text": "Thanks, but we are not interested right now."}'
+Invoke-RestMethod -Uri "http://localhost:8080/predict" -
+Method POST -ContentType "application/json" -
+Body '{"text": "Thanks, but we are not interested right now."}'
 ```
 
 ## Docker Deployment
